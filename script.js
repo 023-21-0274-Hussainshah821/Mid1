@@ -22,4 +22,13 @@ document.addEventListener("DOMContentLoaded", function() {
       promotionForm.reset();
     });
   });
+// admin.js
+document.addEventListener("DOMContentLoaded", function() {
+    const clickMeButton = document.getElementById("clickMeButton");
+    const message = document.getElementById("message");
   
+    clickMeButton.addEventListener("click", function() {
+      message.textContent = "Button clicked!";
+    });
+  });
+    
